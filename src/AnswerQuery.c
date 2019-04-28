@@ -22,7 +22,7 @@ void QueryServTimeOutHandler()//the hanle function for timeout
         ServiceQueryListener.isServiceRunning=true;
     }
     //PrintStatus(ServiceQueryListener);
-    printf("QueryPackListener Running\n");
+    // printf("QueryPackListener Running\n");
 }
 
 //handle QueryPack, returns a corresponding AnswerQuery Pack

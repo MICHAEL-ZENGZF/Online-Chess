@@ -22,7 +22,7 @@ void UserServTimeOutHandler()//the hanle function for timeout
         ServiceUserPackListener.isServiceRunning=true;
     }
     //PrintStatus(ServiceUserPackListener);
-    printf("UserPackListener Running\n");
+    //printf("UserPackListener Running\n");
 }
 
 void OutputUserPack(PackUnamePasswd packUP)
