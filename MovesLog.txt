@@ -1,4 +1,0 @@
-E2 to E4
-B8 to C6
-F1 to B5
-C6 to D4
