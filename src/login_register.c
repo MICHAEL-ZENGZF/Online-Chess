@@ -20,9 +20,10 @@ void UserServTimeOutHandler()//the hanle function for timeout
     {
         ServiceUserPackListener.ServiceID=GetServiceID(ServiceUserPackListener.ServiceName);
         ServiceUserPackListener.isServiceRunning=true;
+        printf("UserPackListener Running\n");
     }
     //PrintStatus(ServiceUserPackListener);
-    //printf("UserPackListener Running\n");
+    //
 }
 
 void OutputUserPack(PackUnamePasswd packUP)

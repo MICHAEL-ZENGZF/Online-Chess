@@ -20,6 +20,7 @@ void QueryServTimeOutHandler()//the hanle function for timeout
     {
         ServiceQueryListener.ServiceID=GetServiceID(ServiceQueryListener.ServiceName);
         ServiceQueryListener.isServiceRunning=true;
+        printf("QueryPackListener Running\n");
     }
     //PrintStatus(ServiceQueryListener);
     // printf("QueryPackListener Running\n");
