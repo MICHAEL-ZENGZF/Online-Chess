@@ -24,7 +24,9 @@ The server is only for managing the status of users, not responsible for intermi
 
 Each user will be a local server when playing chess, they communicate with each other directly.
 
-All the communication is encoded into json strings
+All the communication is encoded into json strings.
+
+The program use socket to communicate.
 
 |File|Usage|
 |---|---|
