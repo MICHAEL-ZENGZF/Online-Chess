@@ -4,4 +4,4 @@ cd build
 cmake ..
 make
 cd ..
-./bin/kchat-client
+./bin/kchat-client 3.16.180.60 11000

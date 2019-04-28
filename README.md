@@ -7,6 +7,7 @@ This branch contains the client program, the server branch contains the server p
 ## quick start
 First you need to have a server program running, then
 just bash CompileAndRun.sh
+
 ## Compile yourself
 This project use cmake in building, so to build the bin yourself:
 ```
@@ -19,6 +20,11 @@ cd ..
 ```
 ## Note
 Must run the program from project root dir (./bin/kchat-client server_address server_port), otherwise unhandled exception is expected.
+
+Currently I have deployed a server at 3.16.180.60 11000 (which is the default address when you bash CompileAndRun.sh), you can try it for a quick start, but it`s only for temporary use, a long-term support is not promised.
+
+To sum up, use this command to try the program after building (only for temporary use):
+>./bin/kchat-client 3.16.180.60 11000
 # Project Structure
 The server is only for managing the status of users, not responsible for intermidiating between users when playing chess.
 
